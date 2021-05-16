@@ -46,6 +46,12 @@ li:hover {
     height: 600px;
     padding: 25px;
 }
+.maininfo {
+    width: 50%;
+    margin: 0 auto;
+    float: center;
+    text-align: center;
+}
 .content {
     width: 500px;
     margin: 0 auto;
@@ -81,6 +87,19 @@ footer {
 .casestudy h1 {
     text-align: left;
     padding-top: 15px;
+    margin-top: 100px;
+}
+.madeleinestudy h1 {
+    color: #d65f07;
+}
+.madeleinestudy h2 {
+    color: #d65f07;
+}
+.dol h1 {
+    color: #062958;
+}
+.dol h2 {
+    color: #062958;
 }
 p {
     font-family: 'Karla', sans-serif;
@@ -175,17 +194,45 @@ h4 {
     font-family: 'Montserrat';
     font-size: 24px;
 }
-.maininfo {
-    width: inherit;
-    margin-right: 45px;
-    margin-left: 45px;
-}
 .hover:hover {
     text-decoration: none;
     color:#000000
 }
+.card-header-mad {
+    background-color: #804c27;
+    color: #ffffff;
+}
+.card-header-dol {
+    background-color: #8e4a49;
+    color: #ffffff;
+}
+.card-header-spark {
+    background-color: #000000;
+    color: #ffffff;
+}
+.sparkstudy h1 {
+    color: #6b13f4
+}
+.sparkstudy h2 {
+    color:#6b13f4
+}
 .problemsolution {
     width: 200px;
+}
+.problemsolutiondol {
+    width: 300px;
+}
+.problem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.solution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .row {
     text-align: center;
@@ -196,22 +243,25 @@ h4 {
     align-items: center;
     justify-content: center;
 }
+.quotes {
+    margin-top: 35px;
+}
 .affinity {
-    width: 500px;
+    width: 700px;
     text-align: center;
 }
 .persona {
-    width: 500px;
+    width: 700px;
     text-align: center;
 }
 .feature {
-    width: 500px;
+    width: 700px;
 }
 .feedback {
-    width: 500px;
+    width: 700px;
 }
-.prototype {
-    text-align: center;
+.future {
+    margin-top: 45px;
 }
 @media only screen and (max-width: 1240px) {
     .workgrid {
